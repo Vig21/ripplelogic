@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# IDE
+.claude/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/

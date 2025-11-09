@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cascade_1",
+    "name": "Fed Rate Decision Impact",
+    "description": "Federal Reserve announces surprise rate cut, triggering cascading effects across financial markets",
+    "category": "ECONOMICS",
+    "severity": 8,
+    "status": "LIVE",
+    "event_data": {
+      "event_headline": "Fed cuts rates by 0.5%, markets react instantly",
+      "significance_score": 0.9,
+      "impact_thesis": "Lower rates reduce borrowing costs, boosting stocks and crypto while weakening dollar. Historical data shows crypto typically gains 10-20% within weeks of rate cuts",
+      "affected_market_count": 8,
+
+      "primary_effects": [
+        {
+          "market_id": "dxy_down",
+          "market_name": "Dollar Index falls below 100",
+          "direction": "UP",
+          "magnitude_percent": 45,
+          "timing": "Instant",
+          "confidence": 0.95,
+          "reason": "Rate cuts directly weaken dollar by reducing yield differential"
+        },
+        {
+          "market_id": "us10y_down",
+          "market_name": "US 10Y Treasury below 4%",
+          "direction": "UP",
+          "magnitude_percent": 30,
+          "timing": "Minutes",
+          "confidence": 0.90,
+          "reason": "Lower Fed rates compress long-term yields immediately"
+        }
+      ],
+
+      "secondary_effects": [
+        {
+          "market_id": "btc_60k",
+          "market_name": "BTC above $60k by EOY",
+          "direction": "UP",
+          "magnitude_percent": 15,
+          "timing": "15-30 minutes",
+          "confidence": 0.80,
+          "reason": "Weaker dollar makes crypto attractive; historical pattern from 2020-2021"
+        },
+        {
+          "market_id": "sp500_5000",
+          "market_name": "S&P 500 above 5000",
+          "direction": "UP",
+          "magnitude_percent": 8,
+          "timing": "1-2 hours",
+          "confidence": 0.75,
+          "reason": "Tech stocks benefit from lower discount rates; P/E expansion likely"
+        },
+        {
+          "market_id": "gold_2200",
+          "market_name": "Gold above $2200/oz",
+          "direction": "UP",
+          "magnitude_percent": 12,
+          "timing": "30-60 minutes",
+          "confidence": 0.78,
+          "reason": "Gold rallies on dollar weakness and inflation hedge demand"
+        }
+      ],
+
+      "tertiary_effects": [
+        {
+          "market_id": "tech_ipo",
+          "market_name": "10+ Tech IPOs in Q1 2025",
+          "direction": "UP",
+          "magnitude_percent": 18,
+          "timing": "Days",
+          "confidence": 0.65,
+          "reason": "Lower rates improve IPO market conditions; startups accelerate public plans"
+        },
+        {
+          "market_id": "housing_starts",
+          "market_name": "Housing starts up 5%+ YoY",
+          "direction": "UP",
+          "magnitude_percent": 10,
+          "timing": "Weeks",
+          "confidence": 0.60,
+          "reason": "Lower mortgage rates stimulate housing sector with 3-6 month lag"
+        }
+      ],
+
+      "arbitrage_opportunities": [
+        {
+          "market_id": "inflation_spike",
+          "market_name": "Inflation above 4% by Q2",
+          "current_implied_price": 25,
+          "fair_value_estimate": 8,
+          "reasoning": "Rate cuts happen BECAUSE inflation is contained. Market overpricing inflation risk",
+          "confidence": 0.85
+        }
+      ],
+
+      "contrarian_takes": [
+        "Market may overreact to tech stocks - not all benefit equally from rate cuts",
+        "Bitcoin could disappoint if institutional adoption slows despite favorable macro"
+      ],
+
+      "cascade_chains": [
+        {
+          "chain": "Fed Rate → Dollar → Crypto → Tech Stocks → IPO Market",
+          "rationale": "Lower rates weaken dollar, making crypto attractive, boosting tech valuations, improving IPO conditions",
+          "timeline_estimate": "Hours to Days"
+        },
+        {
+          "chain": "Fed Rate → Yields → Housing → Construction → Materials",
+          "rationale": "Rate cuts lower mortgage rates, stimulating housing demand and construction sector",
+          "timeline_estimate": "Weeks to Months"
+        }
+      ],
+
+      "market_impact_forecast": [
+        {
+          "market_id": "btc_60k",
+          "market_name": "BTC above $60k by EOY",
+          "direction": "UP",
+          "magnitude_percent": 15,
+          "confidence": 0.8,
+          "reason": "Lower rates historically bullish for crypto"
+        },
+        {
+          "market_id": "sp500_5000",
+          "market_name": "S&P 500 above 5000",
+          "direction": "UP",
+          "magnitude_percent": 8,
+          "confidence": 0.75,
+          "reason": "Tech stocks benefit from lower discount rates"
+        }
+      ],
+
+      "key_risks": [
+        "Inflation concerns could reverse sentiment within days",
+        "Regulatory changes could dampen crypto rally",
+        "Recession fears may offset rate cut optimism"
+      ],
+
+      "educational_takeaway": "Interest rates affect asset prices through discount rate mechanism and create multi-stage cascades across asset classes"
+    },
+    "created_at": 1704758400000
+  },
+  {
+    "id": "cascade_2",
+    "name": "AI Breakthrough Announcement",
+    "description": "Major tech company announces GPT-5 level breakthrough in AI capabilities",
+    "category": "TECHNOLOGY",
+    "severity": 7,
+    "status": "LIVE",
+    "event_data": {
+      "event_headline": "GPT-5 class model demonstrates near-AGI reasoning abilities",
+      "significance_score": 0.85,
+      "impact_thesis": "Advanced AI capabilities accelerate across tech sector, affecting valuations and regulatory outlook. Historical pattern: initial euphoria followed by regulatory scrutiny",
+      "affected_market_count": 9,
+
+      "primary_effects": [
+        {
+          "market_id": "openai_200b",
+          "market_name": "OpenAI valued above $200B",
+          "direction": "UP",
+          "magnitude_percent": 40,
+          "timing": "Instant",
+          "confidence": 0.90,
+          "reason": "Direct beneficiary of breakthrough; validates astronomical valuation"
+        },
+        {
+          "market_id": "nvidia_rally",
+          "market_name": "NVIDIA up 10%+ this week",
+          "direction": "UP",
+          "magnitude_percent": 35,
+          "timing": "Minutes",
+          "confidence": 0.88,
+          "reason": "Hardware providers benefit immediately from increased AI compute demand"
+        }
+      ],
+
+      "secondary_effects": [
+        {
+          "market_id": "ai_startups",
+          "market_name": "AI startup funding up 30%+ in Q1",
+          "direction": "UP",
+          "magnitude_percent": 22,
+          "timing": "Hours",
+          "confidence": 0.75,
+          "reason": "Breakthrough validates AI sector; VCs accelerate deployment"
+        },
+        {
+          "market_id": "msft_azure",
+          "market_name": "Azure AI revenue doubles YoY",
+          "direction": "UP",
+          "magnitude_percent": 18,
+          "timing": "Days",
+          "confidence": 0.72,
+          "reason": "Enterprise adoption accelerates; Microsoft OpenAI partnership benefits"
+        }
+      ],
+
+      "tertiary_effects": [
+        {
+          "market_id": "ai_regulation",
+          "market_name": "Major AI regulation by 2025",
+          "direction": "UP",
+          "magnitude_percent": 25,
+          "timing": "Weeks",
+          "confidence": 0.68,
+          "reason": "Advanced capabilities trigger regulatory urgency; EU AI Act precedent"
+        },
+        {
+          "market_id": "job_displacement",
+          "market_name": "White collar job cuts up 20%",
+          "direction": "UP",
+          "magnitude_percent": 15,
+          "timing": "Months",
+          "confidence": 0.55,
+          "reason": "Companies accelerate AI adoption to reduce costs; GPT-5 replaces more roles"
+        }
+      ],
+
+      "arbitrage_opportunities": [
+        {
+          "market_id": "agi_by_2025",
+          "market_name": "AGI achieved by end of 2025",
+          "current_implied_price": 35,
+          "fair_value_estimate": 12,
+          "reasoning": "Even GPT-5 breakthrough doesn't equal AGI. Market conflating capability improvement with full AGI",
+          "confidence": 0.82
+        }
+      ],
+
+      "contrarian_takes": [
+        "Traditional tech stocks may underperform - value accrues to AI-native companies",
+        "Regulation may come faster than market expects, creating volatility"
+      ],
+
+      "cascade_chains": [
+        {
+          "chain": "AI Breakthrough → Tech Stocks → Cloud Revenue → Enterprise Software → Job Market",
+          "rationale": "Breakthrough drives tech rally, increases cloud adoption, transforms enterprise software, impacts employment",
+          "timeline_estimate": "Days to Months"
+        }
+      ],
+
+      "market_impact_forecast": [
+        {
+          "market_id": "openai_200b",
+          "market_name": "OpenAI valued above $200B",
+          "direction": "UP",
+          "magnitude_percent": 25,
+          "confidence": 0.85,
+          "reason": "Breakthrough validates massive valuations"
+        },
+        {
+          "market_id": "ai_regulation",
+          "market_name": "Major AI regulation by 2025",
+          "direction": "UP",
+          "magnitude_percent": 12,
+          "confidence": 0.7,
+          "reason": "Advanced capabilities increase regulatory pressure"
+        }
+      ],
+
+      "key_risks": [
+        "Breakthrough capabilities may be exaggerated in initial demos",
+        "Regulatory backlash could accelerate faster than expected",
+        "Competitive response from Meta/Google could limit OpenAI gains"
+      ],
+
+      "educational_takeaway": "Technology breakthroughs create multi-stage market cascades with regulatory backlash as a common tertiary effect"
+    },
+    "created_at": 1704672000000
+  },
+  {
+    "id": "cascade_3",
+    "name": "Election Poll Shift",
+    "description": "Surprise polling shift in key swing states ahead of presidential election",
+    "category": "POLITICS",
+    "severity": 6,
+    "status": "RESOLVED",
+    "event_data": {
+      "event_headline": "Polling shows unexpected 5-point swing toward Republican in PA, MI, WI",
+      "significance_score": 0.75,
+      "impact_thesis": "Electoral probabilities shift dramatically, affecting policy-sensitive markets and sector rotations",
+      "affected_market_count": 7,
+
+      "primary_effects": [
+        {
+          "market_id": "rep_win",
+          "market_name": "Republican wins presidency",
+          "direction": "UP",
+          "magnitude_percent": 15,
+          "timing": "Minutes",
+          "confidence": 0.85,
+          "reason": "Swing state polls are leading indicators; 5-point shift is statistically significant"
+        }
+      ],
+
+      "secondary_effects": [
+        {
+          "market_id": "renewable_policy",
+          "market_name": "Major renewable energy policy by 2026",
+          "direction": "DOWN",
+          "magnitude_percent": 12,
+          "timing": "Hours",
+          "confidence": 0.70,
+          "reason": "Republican platform less favorable to renewable subsidies"
+        },
+        {
+          "market_id": "fossil_stocks",
+          "market_name": "Energy sector up 8%+ by year-end",
+          "direction": "UP",
+          "magnitude_percent": 10,
+          "timing": "Hours",
+          "confidence": 0.68,
+          "reason": "Republican administration typically more fossil fuel friendly"
+        }
+      ],
+
+      "tertiary_effects": [
+        {
+          "market_id": "healthcare_reform",
+          "market_name": "ACA repeal by 2026",
+          "direction": "UP",
+          "magnitude_percent": 8,
+          "timing": "Days",
+          "confidence": 0.55,
+          "reason": "Republican control increases odds of healthcare policy changes"
+        }
+      ],
+
+      "arbitrage_opportunities": [
+        {
+          "market_id": "electoral_landslide",
+          "market_name": "Winner gets 400+ electoral votes",
+          "current_implied_price": 18,
+          "fair_value_estimate": 5,
+          "reasoning": "Swing state shifts suggest close race, not landslide. Market overreacting",
+          "confidence": 0.80
+        }
+      ],
+
+      "contrarian_takes": [
+        "Polling error remains high - 2016/2020 taught markets to be skeptical",
+        "Late campaign developments could easily reverse this trend"
+      ],
+
+      "cascade_chains": [
+        {
+          "chain": "Poll Shift → Election Odds → Policy Markets → Sector Rotation → Stock Picks",
+          "rationale": "Different candidates favor different policies and sectors; markets price in new regime",
+          "timeline_estimate": "Minutes to Days"
+        }
+      ],
+
+      "market_impact_forecast": [
+        {
+          "market_id": "dem_win",
+          "market_name": "Democrat wins presidency",
+          "direction": "DOWN",
+          "magnitude_percent": 5,
+          "confidence": 0.65,
+          "reason": "Polls favor Republican candidate"
+        },
+        {
+          "market_id": "renewable_policy",
+          "market_name": "Major renewable energy policy by 2026",
+          "direction": "DOWN",
+          "magnitude_percent": 8,
+          "confidence": 0.6,
+          "reason": "Republican candidate less favorable to renewables"
+        }
+      ],
+
+      "key_risks": [
+        "Polling error remains significant (3-4 points typical)",
+        "Late campaign events (debates, scandals) could reverse trend",
+        "Early voting data may contradict polls"
+      ],
+
+      "educational_takeaway": "Political events cascade through policy expectations to market sectors, with timing based on election proximity"
+    },
+    "created_at": 1704585600000,
+    "resolved_at": 1704758400000
+  }
+]

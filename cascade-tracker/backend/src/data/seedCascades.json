@@ -382,5 +382,368 @@
     },
     "created_at": 1704585600000,
     "resolved_at": 1704758400000
+  },
+  {
+    "id": "cascade_4",
+    "name": "COVID Stimulus Rally",
+    "description": "Massive fiscal stimulus bill passes in March 2020, reversing the pandemic selloff and sparking a cross-asset recovery",
+    "category": "MACRO",
+    "severity": 9,
+    "status": "RESOLVED",
+    "event_data": {
+      "event_headline": "US approves $2.2T CARES Act, unleashing historic stimulus",
+      "significance_score": 0.95,
+      "impact_thesis": "Coordinated fiscal and monetary stimulus backstops risk assets, igniting one of the fastest rebounds in modern market history. Liquidity drives hunt for yield across equities and crypto.",
+      "affected_market_count": 10,
+      "primary_effects": [
+        {
+          "market_id": "sp500_recovery",
+          "market_name": "S&P 500 regains pre-COVID highs in 2020",
+          "direction": "UP",
+          "magnitude_percent": 55,
+          "timing": "Weeks",
+          "confidence": 0.9,
+          "reason": "Fiscal stimulus plus Fed QE stabilized credit markets and restored risk appetite"
+        },
+        {
+          "market_id": "fed_balance_sheet",
+          "market_name": "Fed balance sheet tops $7T",
+          "direction": "UP",
+          "magnitude_percent": 65,
+          "timing": "Weeks",
+          "confidence": 0.92,
+          "reason": "Unlimited QE commitments expanded Fed assets at record pace"
+        }
+      ],
+      "secondary_effects": [
+        {
+          "market_id": "crypto_bull_2020",
+          "market_name": "Bitcoin above $20k by year-end 2020",
+          "direction": "UP",
+          "magnitude_percent": 70,
+          "timing": "Months",
+          "confidence": 0.78,
+          "reason": "Liquidity plus inflation hedging narrative drove crypto demand"
+        },
+        {
+          "market_id": "homebuilder_rally",
+          "market_name": "Housing starts hit post-GFC highs",
+          "direction": "UP",
+          "magnitude_percent": 25,
+          "timing": "Months",
+          "confidence": 0.7,
+          "reason": "Low rates and stimulus checks boosted home demand"
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "market_id": "spac_boom",
+          "market_name": "SPAC issuance sets record in 2020",
+          "direction": "UP",
+          "magnitude_percent": 80,
+          "timing": "Months",
+          "confidence": 0.6,
+          "reason": "Easy money environment encouraged speculative capital raising"
+        },
+        {
+          "market_id": "retail_trading_surge",
+          "market_name": "Retail brokerage accounts double",
+          "direction": "UP",
+          "magnitude_percent": 90,
+          "timing": "Months",
+          "confidence": 0.58,
+          "reason": "Stimulus checks and zero commissions accelerated participation"
+        }
+      ],
+      "arbitrage_opportunities": [
+        {
+          "market_id": "inflation_spike_2020",
+          "market_name": "US inflation above 3% in 2020",
+          "current_implied_price": 45,
+          "fair_value_estimate": 12,
+          "reasoning": "Demand shock was muted by lockdowns; inflation surge lagged until 2021",
+          "confidence": 0.77
+        }
+      ],
+      "contrarian_takes": [
+        "Stimulus delayed corporate bankruptcies, creating zombie risk",
+        "Liquidity-driven rally disconnected from real economy, sowing future volatility"
+      ],
+      "cascade_chains": [
+        {
+          "chain": "Stimulus Bill → Credit Markets → Equities → Crypto → Speculative Assets",
+          "rationale": "Liquidity stabilized credit spreads, enabling equity rebound and speculative rotation",
+          "timeline_estimate": "Weeks to Months"
+        }
+      ],
+      "market_impact_forecast": [
+        {
+          "market_id": "sp500_recovery",
+          "market_name": "S&P 500 regains pre-COVID highs in 2020",
+          "direction": "UP",
+          "magnitude_percent": 40,
+          "confidence": 0.82,
+          "reason": "Liquidity plus forward guidance supported risk premium compression"
+        },
+        {
+          "market_id": "crypto_bull_2020",
+          "market_name": "Bitcoin above $20k by year-end 2020",
+          "direction": "UP",
+          "magnitude_percent": 30,
+          "confidence": 0.74,
+          "reason": "Institutional inflows accelerated amid macro hedge narrative"
+        }
+      ],
+      "key_risks": [
+        "Second pandemic wave could have interrupted recovery",
+        "Political gridlock on follow-up stimulus risked growth cliff",
+        "Inflation breakout risk underappreciated in 2020"
+      ],
+      "educational_takeaway": "Massive policy responses can reverse market crashes rapidly; understanding liquidity transmission is critical for timing recoveries"
+    },
+    "created_at": 1584662400000,
+    "resolved_at": 1609459200000
+  },
+  {
+    "id": "cascade_5",
+    "name": "GameStop Short Squeeze",
+    "description": "Retail traders coordinated through social media force a historic short squeeze in GameStop during January 2021",
+    "category": "MARKET_STRUCTURE",
+    "severity": 8,
+    "status": "RESOLVED",
+    "event_data": {
+      "event_headline": "GME shares surge over 1500% in two weeks as shorts scramble",
+      "significance_score": 0.88,
+      "impact_thesis": "Crowdsourced retail flows exposed vulnerabilities in heavily shorted names, driving brokers to adjust margin policies and market makers to manage risk tightly.",
+      "affected_market_count": 6,
+      "primary_effects": [
+        {
+          "market_id": "gme_above_300",
+          "market_name": "GameStop closes above $300 in Jan 2021",
+          "direction": "UP",
+          "magnitude_percent": 1500,
+          "timing": "Days",
+          "confidence": 0.85,
+          "reason": "Short interest exceeded float, creating squeeze dynamics"
+        },
+        {
+          "market_id": "broker_margin",
+          "market_name": "Retail brokers raise margin requirements",
+          "direction": "UP",
+          "magnitude_percent": 60,
+          "timing": "Days",
+          "confidence": 0.82,
+          "reason": "Volatility forced brokers to conserve capital and limit exposure"
+        }
+      ],
+      "secondary_effects": [
+        {
+          "market_id": "meme_basket",
+          "market_name": "AMC/BB/NOK surge in sympathy",
+          "direction": "UP",
+          "magnitude_percent": 300,
+          "timing": "Days",
+          "confidence": 0.72,
+          "reason": "Retail capital rotated into other high short interest names"
+        },
+        {
+          "market_id": "volatility_spike",
+          "market_name": "VIX spikes above 35",
+          "direction": "UP",
+          "magnitude_percent": 65,
+          "timing": "Days",
+          "confidence": 0.68,
+          "reason": "Market makers hedged gamma exposure, elevating implied volatility"
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "market_id": "payment_for_order_flow",
+          "market_name": "Regulators review PFOF model in 2021",
+          "direction": "UP",
+          "magnitude_percent": 40,
+          "timing": "Months",
+          "confidence": 0.6,
+          "reason": "Congressional hearings scrutinized retail trading pipelines"
+        },
+        {
+          "market_id": "hedge_fund_losses",
+          "market_name": "Melvin Capital posts 50% drawdown",
+          "direction": "UP",
+          "magnitude_percent": 50,
+          "timing": "Months",
+          "confidence": 0.58,
+          "reason": "Short covering losses crippled concentrated funds"
+        }
+      ],
+      "arbitrage_opportunities": [
+        {
+          "market_id": "gamma_squeeze_unwind",
+          "market_name": "GME falls back below $100 by mid-2021",
+          "current_implied_price": 35,
+          "fair_value_estimate": 65,
+          "reasoning": "Price divorced from fundamentals; eventual mean reversion likely once squeeze abates",
+          "confidence": 0.7
+        }
+      ],
+      "contrarian_takes": [
+        "Order flow restrictions would erode retail trust and participation",
+        "Hedge funds would adopt stricter short concentration limits, reducing future squeezes"
+      ],
+      "cascade_chains": [
+        {
+          "chain": "Short Squeeze → Broker Margin Calls → Volatility Spike → Regulatory Scrutiny → Industry Adaptation",
+          "rationale": "Extreme price moves forced brokers to adjust risk controls, triggering wider market volatility and policy review",
+          "timeline_estimate": "Days to Months"
+        }
+      ],
+      "market_impact_forecast": [
+        {
+          "market_id": "gme_above_300",
+          "market_name": "GameStop closes above $300 in Jan 2021",
+          "direction": "UP",
+          "magnitude_percent": 1200,
+          "confidence": 0.8,
+          "reason": "Continuation of squeeze and covering pressure"
+        },
+        {
+          "market_id": "payment_for_order_flow",
+          "market_name": "Regulators review PFOF model in 2021",
+          "direction": "UP",
+          "magnitude_percent": 20,
+          "confidence": 0.62,
+          "reason": "Political spotlight ensured follow-up hearings"
+        }
+      ],
+      "key_risks": [
+        "Broker trading halts undermined squeeze momentum",
+        "Liquidity providers hedged aggressively, capping upside",
+        "Regulatory crackdown risked structural changes to retail trading"
+      ],
+      "educational_takeaway": "Extreme short interest can create explosive cascades, but structural frictions (margin, clearing) dictate sustainability of speculative rallies"
+    },
+    "created_at": 1611014400000,
+    "resolved_at": 1614556800000
+  },
+  {
+    "id": "cascade_6",
+    "name": "Energy Shock After Ukraine Invasion",
+    "description": "Russia invades Ukraine in February 2022, triggering surging energy prices and supply chain disruptions",
+    "category": "GEOPOLITICS",
+    "severity": 9,
+    "status": "RESOLVED",
+    "event_data": {
+      "event_headline": "Brent crude spikes above $120 as war disrupts supply chains",
+      "significance_score": 0.92,
+      "impact_thesis": "Geopolitical conflict constrains energy supply, driving commodity inflation, shifting capital to defensive sectors, and accelerating energy policy debates.",
+      "affected_market_count": 9,
+      "primary_effects": [
+        {
+          "market_id": "brent_120",
+          "market_name": "Brent crude above $120 in 2022",
+          "direction": "UP",
+          "magnitude_percent": 60,
+          "timing": "Days",
+          "confidence": 0.88,
+          "reason": "Supply shock expectations repriced crude immediately"
+        },
+        {
+          "market_id": "natgas_europe",
+          "market_name": "European natural gas hits record highs",
+          "direction": "UP",
+          "magnitude_percent": 70,
+          "timing": "Days",
+          "confidence": 0.86,
+          "reason": "Dependence on Russian gas created acute scarcity"
+        }
+      ],
+      "secondary_effects": [
+        {
+          "market_id": "inflation_8pct",
+          "market_name": "US CPI above 8% in 2022",
+          "direction": "UP",
+          "magnitude_percent": 40,
+          "timing": "Months",
+          "confidence": 0.76,
+          "reason": "Energy pass-through drove broad inflationary pressures"
+        },
+        {
+          "market_id": "fed_rate_hikes",
+          "market_name": "Fed hikes rates 4x in 2022",
+          "direction": "UP",
+          "magnitude_percent": 50,
+          "timing": "Months",
+          "confidence": 0.74,
+          "reason": "Persistent inflation compelled aggressive tightening"
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "market_id": "renewable_push",
+          "market_name": "EU doubles renewable investment targets",
+          "direction": "UP",
+          "magnitude_percent": 35,
+          "timing": "Months",
+          "confidence": 0.62,
+          "reason": "Energy security concerns accelerated transition policies"
+        },
+        {
+          "market_id": "food_price_spike",
+          "market_name": "FAO food price index hits all-time high",
+          "direction": "UP",
+          "magnitude_percent": 25,
+          "timing": "Months",
+          "confidence": 0.6,
+          "reason": "Ukraine and Russia grain export disruptions compounded energy costs"
+        }
+      ],
+      "arbitrage_opportunities": [
+        {
+          "market_id": "europe_gas_rationing",
+          "market_name": "EU mandates nationwide gas rationing in 2022",
+          "current_implied_price": 55,
+          "fair_value_estimate": 25,
+          "reasoning": "Governments sourced alternative LNG supplies; rationing avoided despite tightness",
+          "confidence": 0.68
+        }
+      ],
+      "contrarian_takes": [
+        "Oil supply adjusted faster than expected via US shale and SPR releases",
+        "Demand destruction from high prices created lagged downside risks"
+      ],
+      "cascade_chains": [
+        {
+          "chain": "War → Energy Supply Shock → Inflation Surge → Central Bank Tightening → Growth Slowdown",
+          "rationale": "Commodity spikes transmitted through inflation channels provoking policy response and growth risks",
+          "timeline_estimate": "Days to Quarters"
+        }
+      ],
+      "market_impact_forecast": [
+        {
+          "market_id": "inflation_8pct",
+          "market_name": "US CPI above 8% in 2022",
+          "direction": "UP",
+          "magnitude_percent": 30,
+          "confidence": 0.72,
+          "reason": "Energy and food pass-through made high CPI readings likely"
+        },
+        {
+          "market_id": "fed_rate_hikes",
+          "market_name": "Fed hikes rates 4x in 2022",
+          "direction": "UP",
+          "magnitude_percent": 35,
+          "confidence": 0.7,
+          "reason": "Policy response to inflation required rapid hikes"
+        }
+      ],
+      "key_risks": [
+        "Escalation risk could have triggered broader supply disruptions",
+        "Global recession risk if energy shock persisted",
+        "Policy missteps from central banks balancing inflation vs. growth"
+      ],
+      "educational_takeaway": "Geopolitical shocks propagate through commodity markets into inflation and monetary policy, demonstrating how supply-side cascades differ from demand-driven events"
+    },
+    "created_at": 1645651200000,
+    "resolved_at": 1672444800000
   }
 ]

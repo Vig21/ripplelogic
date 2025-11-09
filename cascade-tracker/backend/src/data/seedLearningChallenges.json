@@ -1,0 +1,242 @@
+[
+  {
+    "id": "challenge_cares_act_relief",
+    "title": "CARES Act Passage",
+    "description": "Analyze how rapid fiscal policy responses during March 2020 set the stage for the pandemic market rebound.",
+    "category": "Macroeconomics",
+    "difficulty_level": "beginner",
+    "min_user_level": 1,
+    "market_id": "cares_act_passage",
+    "market_slug": "cares-act-passed-march-2020",
+    "market_question": "Will the CARES Act pass by March 27, 2020?",
+    "market_data": {
+      "volume": 85000000,
+      "liquidity": 22000000,
+      "current_odds": [72, 28],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2020-03-27T20:00:00Z",
+      "category": "Politics",
+      "resolved_price": 1,
+      "reference_url": "https://www.congress.gov/bill/116th-congress/house-bill/748"
+    },
+    "educational_content": {
+      "market_context": "In March 2020, lawmakers scrambled to pass the $2.2T CARES Act to stem the economic freefall caused by COVID-19 lockdowns.",
+      "key_factors": [
+        "Speed of bipartisan negotiations in Congress",
+        "Scale of fiscal stimulus and direct household payments",
+        "Coordination with Federal Reserve emergency lending facilities",
+        "Market expectations for credit backstops"
+      ],
+      "historical_precedents": "During the 2008 financial crisis, rapid passage of TARP provided a similar confidence boost, stabilizing credit spreads and supporting risk assets.",
+      "analysis_framework": "Track legislative calendars, whip counts, and public statements from key committee chairs. Combine with credit spread data and central bank announcements to judge passage odds.",
+      "learning_objectives": [
+        "Understand how policy timelines influence market sentiment",
+        "Connect fiscal stimulus expectations to equity and credit repricing"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "yes",
+    "created_at": 1584230400,
+    "resolved_at": 1585267200
+  },
+  {
+    "id": "challenge_btc_2020_close",
+    "title": "Bitcoin Year-End Breakout",
+    "description": "Review how macro narratives and supply dynamics helped Bitcoin eclipse the $20K milestone in 2020.",
+    "category": "Cryptocurrency",
+    "difficulty_level": "beginner",
+    "min_user_level": 1,
+    "market_id": "btc_close_20k_2020",
+    "market_slug": "bitcoin-closes-above-20k-2020",
+    "market_question": "Will Bitcoin close above $20,000 on December 31, 2020?",
+    "market_data": {
+      "volume": 45000000,
+      "liquidity": 1200000,
+      "current_odds": [35, 65],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2020-12-31T23:59:59Z",
+      "category": "Finance",
+      "resolved_price": 1,
+      "reference_url": "https://www.coindesk.com/markets/2020/12/31/bitcoin-tops-29000-to-end-2020"
+    },
+    "educational_content": {
+      "market_context": "After the May 2020 halving, institutional adoption and macro hedge narratives accelerated Bitcoin's rally into year end.",
+      "key_factors": [
+        "Post-halving supply reductions",
+        "Institutional allocation announcements from MicroStrategy and others",
+        "US dollar weakness amid aggressive monetary easing",
+        "Spot and derivatives market positioning"
+      ],
+      "historical_precedents": "Previous halving cycles in 2012 and 2016 produced multi-quarter bull runs, though the magnitude and timing varied with macro backdrops.",
+      "analysis_framework": "Track on-chain flows, ETF/OTC desk accumulation, and macro drivers such as real yields. Compare implied probabilities in crypto prediction markets to historical volatility.",
+      "learning_objectives": [
+        "Link crypto supply mechanics to price trajectories",
+        "Evaluate how macro liquidity influences digital asset adoption"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "yes",
+    "created_at": 1605398400,
+    "resolved_at": 1609459199
+  },
+  {
+    "id": "challenge_us_election_2020",
+    "title": "2020 U.S. Presidential Outcome",
+    "description": "Examine how polling quality and demographic coalitions shaped the eventual 2020 U.S. election result.",
+    "category": "Politics",
+    "difficulty_level": "beginner",
+    "min_user_level": 1,
+    "market_id": "us_president_2020",
+    "market_slug": "donald-trump-wins-2020-election",
+    "market_question": "Will Donald Trump win the 2020 U.S. Presidential Election?",
+    "market_data": {
+      "volume": 250000000,
+      "liquidity": 7500000,
+      "current_odds": [45, 55],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2020-11-03T23:59:59Z",
+      "category": "Politics",
+      "resolved_price": 0,
+      "reference_url": "https://www.nytimes.com/2020/11/07/us/politics/joe-biden-wins.html"
+    },
+    "educational_content": {
+      "market_context": "Prediction markets tracked the tight race as late-deciding voters and mail-in ballot counts created sharp probability swings.",
+      "key_factors": [
+        "Swing-state polling averages and error margins",
+        "Demographic turnout patterns, especially suburban voters",
+        "Impact of COVID-19 handling and economic conditions",
+        "Real-time vote count data on election night"
+      ],
+      "historical_precedents": "Markets mispriced the 2016 election, leading participants to scrutinize poll methodology changes and shifting coalitions in 2020.",
+      "analysis_framework": "Blend polling error scenarios with fundamentals (GDP growth, approval ratings). Stress test outcomes using Electoral College math and early vote data.",
+      "learning_objectives": [
+        "Assess reliability of polling-based probabilities",
+        "Translate political scenarios into policy-sensitive market moves"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "no",
+    "created_at": 1593561600,
+    "resolved_at": 1604770200
+  },
+  {
+    "id": "challenge_gme_jan2021",
+    "title": "GameStop Short Squeeze",
+    "description": "Understand how structural short interest and retail coordination produced the January 2021 GameStop squeeze.",
+    "category": "Equities",
+    "difficulty_level": "intermediate",
+    "min_user_level": 3,
+    "market_id": "gme_close_300_jan29",
+    "market_slug": "gamestop-close-above-300-jan-29-2021",
+    "market_question": "Will GameStop close above $300 on January 29, 2021?",
+    "market_data": {
+      "volume": 98000000,
+      "liquidity": 5600000,
+      "current_odds": [25, 75],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2021-01-29T21:00:00Z",
+      "category": "Equities",
+      "resolved_price": 1,
+      "reference_url": "https://www.wsj.com/articles/gamestop-stock-gme-price-11611946087"
+    },
+    "educational_content": {
+      "market_context": "With short interest exceeding free float, coordinated retail buying on r/WallStreetBets forced aggressive covering by hedge funds.",
+      "key_factors": [
+        "Short interest to float ratios above 100%",
+        "Options gamma exposure among market makers",
+        "Brokerage margin requirements and collateral constraints",
+        "Social media-driven order flow concentration"
+      ],
+      "historical_precedents": "Past squeezes such as Volkswagen (2008) showed how limited float can trigger runaway price spikes when shorts crowd a trade.",
+      "analysis_framework": "Monitor short interest data, borrow rates, and options positioning. Evaluate liquidity risk from clearinghouses and broker policies that can cap squeezes.",
+      "learning_objectives": [
+        "Recognize structural vulnerabilities that enable squeezes",
+        "Assess when positioning, not fundamentals, drives price action"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "yes",
+    "created_at": 1611100800,
+    "resolved_at": 1611954000
+  },
+  {
+    "id": "challenge_us_cpi_8pct_2022",
+    "title": "Inflation Breaks Above 8%",
+    "description": "Evaluate how energy shocks and supply chain frictions pushed U.S. inflation to four-decade highs in 2022.",
+    "category": "Macroeconomics",
+    "difficulty_level": "intermediate",
+    "min_user_level": 3,
+    "market_id": "us_cpi_above_8pct_2022",
+    "market_slug": "us-cpi-above-8pct-by-april-2022",
+    "market_question": "Will U.S. CPI year-over-year exceed 8% by April 2022?",
+    "market_data": {
+      "volume": 32000000,
+      "liquidity": 4100000,
+      "current_odds": [40, 60],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2022-04-12T12:30:00Z",
+      "category": "Economics",
+      "resolved_price": 1,
+      "reference_url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm"
+    },
+    "educational_content": {
+      "market_context": "Persistent supply constraints, elevated energy prices, and strong demand lifted headline CPI to 8.5% in April 2022.",
+      "key_factors": [
+        "Energy price passthrough from the Russia-Ukraine conflict",
+        "Goods inventory rebuilds colliding with port congestion",
+        "Shelter inflation dynamics and owners' equivalent rent",
+        "Fiscal stimulus lingering effects on household demand"
+      ],
+      "historical_precedents": "The 1970s energy crises similarly pushed inflation well above target, prompting aggressive policy responses from the Federal Reserve.",
+      "analysis_framework": "Track high-frequency indicators like PMI price components, energy futures, and wage growth. Compare market breakevens with realized inflation trends.",
+      "learning_objectives": [
+        "Connect commodity shocks to headline inflation",
+        "Anticipate how persistent inflation reshapes central bank policy"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "yes",
+    "created_at": 1638316800,
+    "resolved_at": 1649766600
+  },
+  {
+    "id": "challenge_brent_q2_2022",
+    "title": "Brent Above $100 in Q2 2022",
+    "description": "Study how geopolitical conflict and supply elasticity kept Brent crude prices elevated through mid-2022.",
+    "category": "Commodities",
+    "difficulty_level": "advanced",
+    "min_user_level": 6,
+    "market_id": "brent_avg_above_100_q2_2022",
+    "market_slug": "brent-average-above-100-q2-2022",
+    "market_question": "Will Brent crude average above $100 per barrel in Q2 2022?",
+    "market_data": {
+      "volume": 21000000,
+      "liquidity": 2800000,
+      "current_odds": [55, 45],
+      "outcomes": ["Yes", "No"],
+      "end_date": "2022-06-30T23:00:00Z",
+      "category": "Commodities",
+      "resolved_price": 1,
+      "reference_url": "https://www.eia.gov/todayinenergy/detail.php?id=53120"
+    },
+    "educational_content": {
+      "market_context": "Russia's invasion of Ukraine removed significant supply from global markets while OPEC spare capacity remained limited, keeping Brent averages above $100.",
+      "key_factors": [
+        "Russian export disruptions and sanctions",
+        "OPEC+ production quotas and spare capacity",
+        "Demand recovery as economies reopened post-COVID",
+        "Strategic petroleum reserve releases by consuming nations"
+      ],
+      "historical_precedents": "Geopolitical shocks such as the Gulf War in 1990 similarly drove oil prices sharply higher until alternative supply appeared.",
+      "analysis_framework": "Monitor tanker tracking data, refinery runs, and OPEC meeting guidance. Compare futures curve backwardation to gauge physical tightness.",
+      "learning_objectives": [
+        "Link geopolitical risk to commodity price persistence",
+        "Assess supply elasticity and policy responses in energy markets"
+      ]
+    },
+    "status": "resolved",
+    "resolution_outcome": "yes",
+    "created_at": 1643673600,
+    "resolved_at": 1656630000
+  }
+]
